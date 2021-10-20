@@ -34,7 +34,7 @@ body{
   text-decoration: none;
 }
 .logo-img{
-  border: radius 50%;
+  border-radius:50%;
 }
 .logo-link span{
   margin: 10px;
@@ -60,6 +60,14 @@ body{
   list-style: none;
   display: flex;
   justify-content: space-between;
+}
+
+.navbar-link{
+  margin: 0;
+  padding: 0;
+}
+.navbar-link:last-child{
+  margin-right: 0;
 }
 .navbar-link a{
   color: #222;
@@ -91,6 +99,7 @@ body{
   padding: 12px 24px;
   font-weight: 700;
   font-size: 15px;
+  text-transform: uppercase;
   line-height: 23px;
   letter-spacing: 2px;
   background-color: #DE2E54;
@@ -98,7 +107,6 @@ body{
   border: 2px solid #DE2E54;
   border-radius: 8px;
   transition: opacity 0.4s ease, color 0.4s ease background-color 0.4s ease;
-   
 }
 .btn:hover,
 .btn-services:hover{
@@ -121,13 +129,13 @@ body{
 .hero-content{
   width: 500px;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 0;
 }
 .hero-title{
   margin-top: 0;
   margin-bottom: 16px;
   line-height: 1.2;
-  font-family: "Open Sans Condensed" "Arial" sans-serif;
+  font-family: "Open Sans Condensed", "Arial" sans-serif;
   font-size: 36px;
 }
 .hero-text{
@@ -148,7 +156,7 @@ body{
   background-color: rgba(222, 46, 84, 0.6);
 }
 .hero-img{
- align-self: flex-end;
+  align-self: flex-end;
 }
 /* Services styles */
 .services-content{
@@ -156,10 +164,9 @@ body{
   margin-bottom: 132px;
 }
 .services-heading{
- 
   margin-bottom: 56px;
   text-align: center;
-  font-family: "Open Sans Condensed" "Arial" sans-serif;
+  font-family: "Open Sans Condensed", "Arial" sans-serif;
   font-size: 36px;
   line-height:43px;
   font-weight: bold;
@@ -180,7 +187,7 @@ body{
 .services-list-heading{
   margin: 0;
   margin-bottom: 24px;
-  font-family: "Open Sans Condensed" "Arial" sans-serif;
+  font-family: "Open Sans Condensed". "Arial" sans-serif;
   font-weight: bolder;
   line-height: 30px;
   color: #222;
@@ -206,7 +213,7 @@ body{
   padding-bottom: 64px;
 }
 .contact-heading{
-  font-family: "Open Sans Condensed" "Arial" sans-serif;
+  font-family: "Open Sans Condensed", "Arial" sans-serif;
   font-size: 36px;
   line-height: 45px;
   text-align: center;
