@@ -187,7 +187,7 @@ body{
 .services-list-heading{
   margin: 0;
   margin-bottom: 24px;
-  font-family: "Open Sans Condensed". "Arial" sans-serif;
+  font-family: "Open Sans Condensed", "Arial" sans-serif;
   font-weight: bolder;
   line-height: 30px;
   color: #222;
